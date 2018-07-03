@@ -1,0 +1,194 @@
+#
+5 5
+n	d2r		zd2r	u2l	 ^d
+n	b		b		u2r	 l2r
+$u	d2l		u2l		u2l	 d2l
+u2r	n		l2r		u2l	 d2r
+u2d	n		u2d		u2r	 n
+#zj2 速度太慢
+
+5	5
+zd2r	$l	d2l	u2l	d2l
+zu2r	d2r	u2d	b	n
+u2l		n	b	u2l	n
+n		u2r	u2d	b	l2r
+d2l		zu2r	^l	u2l	n
+
+4	4
+$r	n		d2l		n
+b	zu2r	d2l		d2l
+u2r	b		n		b	
+b	u2d		^r		zu2l
+
+
+4	4
+b	u2d	d2l	n
+b	zu2d	^u	n
+d2l	d2r	l2r	n
+$r	u2r	n	u2l
+cg20
+
+4	4
+n	b	d2r	l2r
+b	$u	u2d	b	
+b	u2r	^r	d2l
+b	b	u2l	n
+cg14
+
+4	4
+d2r	l2r	d2l	n
+b	$u	^d	u2d
+b	n	u2r	n
+d2l	b	u2d	u2l
+
+4	4
+u2d	b	d2l	b
+d2l	b	u2r	n
+d2r	$u	n	zu2d
+n	d2r	b	^u
+#cg12
+
+4	4
+n	u2r	b	d2l
+u2d	l2r	n	d2l
+$u	b	^r	u2l
+n	b	d2r	u2d
+#cg9
+#人类在走了几步依然能判断难度，而广度
+
+4	4
+n	d2l	d2r	n
+u2r	u2r	$u	l2r
+n	u2d	b	d2l
+n	u2d	^l	u2r
+#cg7
+
+4	4
+u2r	d2r	l2r	n
+n	d2l	$l	u2l
+l2r	u2r	^l	b
+n	u2d	b	b
+
+4 4
+b	$r	l2r	n
+d2r	b	l2r	b
+b	^u	n	d2l
+u2l	b	b	u2l
+#cg4
+
+4	4
+u2r	u2r	l2r	$l
+b	l2r	^l	n
+d2r	n	d2r	b
+l2r	b	d2l	b
+#cg3
+
+4	4
+^r	u2l	n	n
+d2r	d2l	b	u2d
+n	b	l2r	zu2d
+d2l	n	u2r	$u
+#cg2
+#没有剪枝策略，或者没有概率规划, 广度有限越来越慢。深度有限则可能走无用的路
+
+4	4
+u2d	^l	b	n
+b	n	b	u2d
+u2r	u2d	u2d	n
+d2r	$l	n	d2l
+# cg1
+
+4	4
+l2r	n	b	n
+n	u2d	l2r	$l
+n	u2r	d2r	b	
+b	^u	b	u2r
+
+4	4
+u2r	d2l	d2l	d2r
+n	l2r	n	d2l
+n	l2r	$u	u2d
+^r	u2l	n	n
+#xs19
+
+4	4
+b	b	n	b
+$r	d2r	u2l	d2l
+u2r	n	u2l	n
+n	l2r	^l	d2r
+#xs14
+
+4 4
+b	b	n	b
+$d  u2d b	n
+u2r n	^l  b
+d2r	u2l n	l2r
+
+4 4
+u2r		 l2r	 d2l	u2d
+d2r		 b		 n		u2d
+^u		 n		$u		n
+b		b		n		b
+
+4	4
+n		l2r		b		d2l
+d2r		$u		l2r		u2d
+b		b		n		u2d
+b		b		b		^u
+#xs 9
+
+4	4
+n		l2r		^l		b
+n		b		b		b
+d2r		u2d		b		b
+$u		u2d		u2l		u2r
+#xs 8
+
+4	4
+^r		l2r		u2l		n
+n		l2r		u2d		d2l
+n		b		$u		d2l
+b		n		b		b
+#xs7
+
+
+4 4
+b	  n		 d2r	d2l
+n	  b		 b		^u
+l2r	  n      u2d	d2l
+u2r	  b		 u2l	$u
+#xs6
+
+4 4
+$d    u2d    n    n
+n     u2r    d2l  d2l
+n     u2r    ^d   b
+b     b      u2l  b
+#xs5
+
+4 4
+b	   n     b     b
+u2d    b     b     n
+l2r    b     l2r   $d
+^r     l2r   u2l   n
+#xs4
+
+4 4
+zd2r   n   zl2r   zd2l
+n      n    u2d    zu2d
+zu2d   u2d  l2r    n
+^u     b    $r     zu2l
+#xs3
+
+4 4
+n	 l2r   ^l   b
+n    b     b    b
+d2l  u2d   b    b
+$u   u2d   u2l  u2r
+
+4 4
+b		d2r		n		$l
+b		^d		n		u2d
+u2d		n		zu2d	b
+b		zu2r	zu2l	b
+#xs 2
